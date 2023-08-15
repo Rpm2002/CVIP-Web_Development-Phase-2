@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylesphere.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="/E-commerece Website/Images/Logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog_page.html" >Blog</a></li>
+                <li><a href="about.html" >About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li id="shopping-bag"><a href="cart.html" class="active"><i class="fa fa-shopping-cart" style="font-size:25px"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-close" style="font-size:24px"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa fa-shopping-cart" style="font-size:25px;"></i></a>
+            <i id="bar" class="fa fa-list" aria-hidden="true" style="font-size: 22px;"></i>
+        </div>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table>
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+                    <td><img src="Images/Featured Products/shirt_1.jpg"></td>
+                    <td>H&M Blue Checkered Shirt</td>
+                    <td><i class="fa fa-rupee" style="font-size:14px"></i>&nbsp;900</td>
+                    <td><input type="number" value="1"></td>
+                    <td><i class="fa fa-rupee" style="font-size:14px"></i>&nbsp;900</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+                    <td><img src="Images/Featured Products/shirt_2.jpg"></td>
+                    <td>H&M Navy Blue Shirt</td>
+                    <td><i class="fa fa-rupee" style="font-size:14px"></i>&nbsp;850</td>
+                    <td><input type="number" value="1"></td>
+                    <td><i class="fa fa-rupee" style="font-size:14px"></i>&nbsp;850</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+                    <td><img src="Images/Featured Products/shirt_3.jpg"></td>
+                    <td>H&M Peach Jacket</td>
+                    <td><i class="fa fa-rupee" style="font-size:14px"></i>&nbsp;1030</td>
+                    <td><input type="number" value="1"></td>
+                    <td><i class="fa fa-rupee" style="font-size:14px"></i>&nbsp;1030</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>
+                    <td><img src="Images/Featured Products/shirt_6.jpg"></td>
+                    <td>H&M Black T-shirt</td>
+                    <td><i class="fa fa-rupee" style="font-size:14px"></i>&nbsp;1000</td>
+                    <td><input type="number" value="1"></td>
+                    <td><i class="fa fa-rupee" style="font-size:14px"></i>&nbsp;1000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Coupon Code</h3>
+            <div>
+                <input type="text" placeholder="xxxx">
+                <button>Apply Coupon</button>
+            </div>
+        </div>
+
+        <div id="total">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart subtotal</td>
+                    <td><i class="fa fa-rupee" style="font-size:14px"></i>&nbsp;900</td>
+                </tr>
+
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong><i class="fa fa-rupee" style="font-size:14px"></i>&nbsp;900</strong></td>
+                </tr>
+            </table>
+
+            <button>Proceed To Checkout</button>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1"> 
+        <div class="newstext">
+            <h4>Sign Up for The Newsletter</h4>
+            <p>Get E-mail updates on our new collection and <span>special offers</span> </p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="xyz@gmail.com">
+            <button>Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col-1">
+            <h3>About</h3>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+        </div>
+
+        <div class="col-2">
+            <h3>My Account</h3>
+            <a href="#">Sign in</a>
+            <a href="#">My wishlist</a>
+            <a href="#">Track order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col-3">
+            <h3>Social</h3>
+            <i class="fa fa-facebook-square" style="font-size:24px"></i>
+            <i class="fa fa-instagram" style="font-size:24px"></i>
+            <i class="fa fa-twitter" style="font-size:24px"></i>
+            <i class="fa fa-youtube-square" style="font-size:24px"></i>
+            <i class="fa fa-pinterest-square" style="font-size:24px"></i>
+            <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+        </div>
+
+        <div class="col-4">
+            <h3>Contact</h3>
+            <p><strong>Address: </strong>Buildings Alyssa, Begonia &Clove Embassy Tech Village,<br>Outer Ring Road, Devarabeesanahalli Village,Bengaluru, 560103, Karnataka, India</p>
+            <p><strong>CIN: </strong>U72300KA2007GJC041801</p>
+            <p><strong>Telephone: </strong>+91-80-83423829</p>
+        </div>
+
+        <div class="copyright">
+            <a href="#"><img src="/E-commerece Website/Images/Logo.png" class="logo" alt=""></a>
+            <p><i class="fa fa-copyright" style="font-size:16px"></i> 2023 www.styleshpere.com All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
